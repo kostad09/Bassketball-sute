@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Košarkaški Svet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #fff;
+    }
+    header {
+      background-color: #ff6a00;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .card {
+      background-color: #2c2c2c;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Košarkaški Svet</h1>
+    <p>Najnovije vesti, priče i potezi sa terena</p>
+  </header>
+  <nav>
+    <a href="#">Početna</a>
+    <a href="#">Blog</a>
+    <a href="#">Kontakt</a>
+  </nav>
+  <main>
+    <div class="card">
+      <h2>TOP 5 poteza ove sedmice</h2>
+      <p>Pogledaj spektakularne zakucavanja, asistencije i blokade koje su obeležile prethodnu sedmicu.</p>
+    </div>
+    <div class="card">
+      <h2>NBA Playoffi: Ko će u finale?</h2>
+      <p>Analiza timova, igrača i prognoze za nastavak sezone.</p>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Košarkaški Svet. Sva prava zadržana.
+  </footer>
+</body>
+</html>
